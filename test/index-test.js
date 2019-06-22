@@ -68,8 +68,8 @@ try {
     });
 
     it("returns 'true' when a string is a palindrome", function() {
-//      expect(isPalindrome("madamimadam")).toEqual(true)
-//    });
+      expect(isPalindrome("madamimadam")).toEqual(true)
+    });
 
     it("makes the proper recursive calls", function() {
       var isPalindrome = sinon.spy(window, "isPalindrome");
