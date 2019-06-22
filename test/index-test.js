@@ -44,7 +44,7 @@ try {
       expect(printString.callCount).toEqual(5)
     });
   });
-
+/*
   describe('reverseString()', function() {
     it("reverses all of the letters in a string", function() {
       expect(reverseString('pizza')).toEqual("azzip");
@@ -127,4 +127,4 @@ try {
       expect(includesNumber.callCount).toEqual(4);
     });
   });
-}
+}*/
