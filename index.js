@@ -22,3 +22,11 @@ function isPalindrome(str) {
   else
     return true
 }
+
+function addUpTo(array, index) {
+  if (array.length >= index)
+    addUpTo(array.slice(1),index-1) + array[0]
+  else {
+    return true;
+  }
+}
