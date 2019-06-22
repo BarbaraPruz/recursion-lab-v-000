@@ -61,7 +61,7 @@ try {
         .toBeLessThanOrEqualTo(6)
     });
   });
-/*
+
   describe('isPalindrome()', function() {
     it("returns 'false' when a string is not a palindrome", function() {
       expect(isPalindrome('pizza')).toEqual(false);
@@ -79,7 +79,7 @@ try {
       expect(isPalindrome.callCount).toEqual(6)
     });
   });
-
+/*
   describe('addUpTo()', function() {
     it("sums all members up to a given index in an array", function() {
       expect(addUpTo([1, 4, 5, 3], 2)).toEqual(10);
