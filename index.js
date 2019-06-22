@@ -19,6 +19,6 @@ function isPalindrome(str) {
   let newString = str.substr(1,length-2)
   if (newString.length>1)
     return isPalindrome(newString)
-  else 
+  else
     return true
 }
