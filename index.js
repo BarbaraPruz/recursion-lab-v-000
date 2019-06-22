@@ -12,3 +12,13 @@ function reverseString(str) {
     return ""
   }
 }
+
+function isPalindrome(str) {
+  if (str[0] !== str[str.length-1])
+    return false;
+  let newString = str.substr(1,length-2)
+  if (newString.length>1)
+    return isPalindrome(newString)
+  else 
+    return true
+}
