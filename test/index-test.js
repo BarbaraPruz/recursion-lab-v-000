@@ -44,7 +44,7 @@ try {
       expect(printString.callCount).toEqual(5)
     });
   });
-/*
+
   describe('reverseString()', function() {
     it("reverses all of the letters in a string", function() {
       expect(reverseString('pizza')).toEqual("azzip");
@@ -61,7 +61,7 @@ try {
         .toBeLessThanOrEqualTo(6)
     });
   });
-
+/*
   describe('isPalindrome()', function() {
     it("returns 'false' when a string is not a palindrome", function() {
       expect(isPalindrome('pizza')).toEqual(false);
