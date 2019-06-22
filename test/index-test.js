@@ -73,9 +73,9 @@ try {
 
     // it("makes the proper recursive calls", function() {
     //   var isPalindrome = sinon.spy(window, "isPalindrome");
-    // 
+    //
     //   isPalindrome("madamimadam")
-    // 
+    //
     //   expect(isPalindrome.callCount).toEqual(6)
     // });
   });
