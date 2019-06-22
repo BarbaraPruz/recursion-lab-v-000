@@ -1,6 +1,6 @@
 // Code your solution here!
-function printString(str) {
-  console.log(str[0])
-  if (str.len > 1)
-    printString(str.substring(1))
+function printString(myString) {
+  console.log(myString[0])
+  if (myString.length > 1)
+    printString(myString.substring(1))
 }
